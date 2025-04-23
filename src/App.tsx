@@ -217,12 +217,6 @@ export default function App() {
                                 <h2 className="text-xl font-semibold">Step 2: RSA Keys</h2>
                                 <div className="space-y-2">
                                     <div className="flex flex-col gap-2 mt-4">
-                                        Please provide your public key.
-                                        <Input
-                                            type="file"
-                                            accept=".pem"
-                                            onChange={(e) => setUploadedPublicKeyFile(e.target.files?.[0] ?? null)}
-                                        />
                                         Please provide your private key.
                                         <Input
                                             type="file"
